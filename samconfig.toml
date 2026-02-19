@@ -1,7 +1,7 @@
 version = 0.1
-[default]
-[default.deploy]
-[default.deploy.parameters]
+[staging]
+[staging.deploy]
+[staging.deploy.parameters]
 stack_name = "todo-list-aws-staging"
 resolve_s3 = true
 s3_prefix = "todo-list-aws"
